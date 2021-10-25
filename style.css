@@ -1,0 +1,351 @@
+html{
+  font-size: 10px;
+}
+.main{
+    background: #032033;
+    background: linear-gradient(132deg, rgba(3, 32, 61, 1) 20%,
+    rgba(0,0,0,.6) 73%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 153.6rem;
+    height:72.1rem;
+}
+.box{
+    position:absolute;
+    left: 5%;
+    top: 5%;
+    width: 75rem;
+    height: 63rem;
+    box-shadow: 0 1.0rem 2.0rem rgba(0, 0, 0, 0.488);
+    border-radius: 2.3rem;
+    background: linear-gradient(132deg, rgba(3, 32, 61, 1) 20%,
+    rgba(0,0,0,.6) 73%);
+    overflow: hidden;
+}
+.middle{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.box img{
+    border-radius: 100%;
+    width:15rem;
+    height: 28rem;
+    position: relative;
+    top: -15rem;
+    left: 3rem;
+    box-shadow: 0 1.0rem 2.0rem rbga(0,0,0,1);
+}
+.text{
+    position: relative;
+    top: 4.0rem;
+    right: .3rem;
+}
+.name{
+    font-size: 3.5rem;
+    font-weight: 800;
+    position: inherit;
+    top: .5rem;
+    color:rgb(127, 120, 167);
+}
+.expr{
+    position: inherit;
+    bottom: .5rem;
+    font-size: large;
+    color: white;
+}
+.arr_container i{
+    color: rgb(70,70,70);
+    position: inherit;
+    right:2.2rem;
+    bottom: 1.6rem;
+    font-size: large;
+    transform: rotate(-45deg);
+}
+.arr_container,
+.cancel {
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+  width: 5.0rem;
+  height: 5.0rem;
+  background-color: white;
+  border-radius: 2.3rem 0 2.3rem 0;
+  transition-duration: 0.3s;
+}
+.cancel:hover {
+  background-color: rgba(255, 255, 255, 0.555);
+}
+.cancel i {
+    color: rgb(70, 70, 70);
+    position: inherit;
+    right: 2.0rem;
+    bottom: 1.6rem;
+    font-size: 2rem;
+  }
+  .arr_container:hover {
+    background-color: rgba(255, 255, 255, 0.555);
+  }
+  .active_arr {
+    transform: translate(80%, 80%);
+  }
+  .jhol{
+    margin-top: 12rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: 800;
+    justify-content: center;
+    color: rgb(22, 23, 24);;
+  }
+  .khass {
+    width: 100%;
+    margin-left: 20.0rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40.0rem;
+  }
+  .icons{
+    margin-bottom: 50.0rem;
+    margin-left: 5.0rem;
+    font-size: 3rem;
+    }
+  .left_container{
+    left: 0%;
+    top: 0%;
+    right: .3rem;
+    position: absolute;
+    background:#001722;
+    width: 75.0rem;
+    height: 63.0rem;
+    box-shadow: 0 1.0rem 2.0rem rgba(0, 0, 0, 0.488);
+    border-radius: 2.3rem;
+    padding: 1.0rem 0 0 2.0rem rgba(0, 0, 0, 0.488);
+    background: linear-gradient(132deg, rgba(3, 32, 61, 1) 20%,
+    rgba(0,0,0,.6) 73%);
+    background-color: white;
+    transition: all 0.4s;
+  }
+  .left_container p{
+    margin-bottom: 45.0rem;
+    font-size: 2rem;
+  }
+  .left_container .expr div{
+    display: inline;
+    color: rgb(155,155,155);
+    border: .1rem solid rgb(155,155,155);
+    padding-left: .5rem 1.0rem;
+    font-size: 1.2rem;
+    margin: .4rem .4rem .4rem .4rem;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  }
+  
+  .left_container .icons{
+    font-size: 1.6rem;
+    margin-top: 5.0rem;
+  }
+  .left_container .icons a {
+    color: #cfcfcf;
+    cursor: pointer;
+    margin-right: 1.0rem;
+    transition: all 0.4s;
+    text-decoration: none;
+  }
+  .left_container .icons a:hover{
+    color: #0a0a0a;
+    size: 3rem;
+  }
+  .off{
+    transform: translate(-86%,-101%) rotate(90deg);
+  }
+  .active{
+    transform: translate(0rem) rotate(0rem);
+  }
+  @media only screen and (max-width: 60.0rem) {
+    .box  .main .middle{
+      position:fixed;
+      left: 15%;
+      top: 15%;
+    }
+  }
+.kmkrjaio {
+  position: relative;
+  top: -30.0rem;
+  left: 19.0rem;
+  height: 10.0rem;
+  width: fit-content;
+  margin-bottom: 20.0rem;
+  bottom: 50.0rem;
+}
+.icons{
+  position: relative;
+  top: -49.0rem;
+  align-items: center;
+  left: 22.0rem;
+}
+.chlja{
+  position: relative;
+  top: 5.0rem;
+  right: 5.0rem;
+}
+.popup1{
+  background-color: rgba(224, 217, 212, 0.877);
+  border: none;
+  font-size:1.3rem;
+  font-weight:548;
+}
+.popup1:hover{
+  background-color: #0a0a0a;
+  color: lightblue;
+}
+.home{
+  text-decoration: none;
+  color: black;
+}
+.home:hover{
+  color: lightblue;
+}
+
+/*-------About--------*/
+
+.popup .content{
+  position:absolute;
+  top: 10rem;
+  left: 25%;
+  transform: translate(-50%,-50%) scale(0);
+  width: 45rem;
+  height: 29rem;
+  z-index: 2;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  background: linear-gradient(132deg, rgba(3, 32, 61, 1) 20%,
+    rgba(122, 94, 94, 1) 73%);
+  border-radius: 1rem;  
+  box-shadow: 0 1.0rem 2.0rem rgba(0, 0, 0, 0.488);
+}
+
+
+
+.popup .close-btn{
+  position: absolute;
+  cursor: pointer;
+  right: 2rem;
+  top: 2rem;
+  width: 3rem;
+  height: 3rem;
+  background: #222;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.popup.active .overlay {
+  display: block;
+}
+
+.popup.active .content{
+  transition: all 300ms ease-in-out;
+  transform:translate(-50%,-50%) scale(1);
+}
+
+/*-------technical skill-----------*/
+.size{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+#progressbar1{
+  position: absolute;
+  left: 3rem;
+  width: 31rem;
+  height: 2rem;
+  background-color: #222;
+  border-radius: 1.3rem;
+ }
+#progressbar1>div{
+  position: absolute;
+  top: -.5rem;
+  left: -1rem;
+  background-color: rgb(185, 139, 137);
+  width: 28rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+#progressbar2{
+  position: absolute;
+  top: 10rem;
+  left: 3rem;
+  width: 31rem;
+  height: 2rem;
+  background-color: #222;
+  border-radius: 1.3rem;
+ }
+#progressbar2>div{
+  position: absolute;
+  top: -0.5rem;
+  left: -1rem;
+  background-color: rgb(185, 139, 137);
+  width: 25rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+#progressbar3{
+  position: absolute;
+  top: 13rem;
+  left: 3rem;
+  width: 31rem;
+  height: 2rem;
+  background-color: #222;
+  border-radius: 1.3rem;
+ }
+#progressbar3>div{
+  position: absolute;
+  top: -0.5rem;
+  left: -1rem;
+  background-color: rgb(185, 139, 137);
+  width: 16.5rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+#progressbar4{
+  position: absolute;
+  top: 16rem;
+  left: 3rem;
+  width: 31rem;
+  height: 2rem;
+  background-color: #222;
+  border-radius: 1.3rem;
+ }
+#progressbar4>div{
+  position: absolute;
+  top: -0.5rem;
+  left: -1rem;
+  background-color: rgb(185, 139, 137);
+  width: 13.5rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+#progressbar5{
+  position: absolute;
+  top: 19rem;
+  left: 3rem;
+  width: 31rem;
+  height: 2rem;
+  background-color: #222;
+  border-radius: 1.3rem;
+ }
+#progressbar5>div{
+  position: absolute;
+  top: -0.5rem;
+  left: -1rem;
+  background-color: rgb(185, 139, 137);
+  width: 16.5rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
